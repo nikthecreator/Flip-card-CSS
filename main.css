@@ -11,9 +11,25 @@ body {
     background-color: #fff;
     border-radius: 10px;
 }
+.card:hover .rotate{
+    transform: rotateY(180deg);
+
+}
 .rotate {
     position: relative;
+    transform-style: preserve-3d;
+}
+.front {
+    background-color: #000000;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
 }
 .back {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
     padding: 20px;
+    background-color: #333333;
 }

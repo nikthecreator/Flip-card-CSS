@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #26A69A;
+}
+.card {
+    width: 300px;
+    height: 400px;
+    margin: 200px auto;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.rotate {
+    position: relative;
+}
+.back {
+    padding: 20px;
+}

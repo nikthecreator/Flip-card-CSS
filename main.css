@@ -27,7 +27,7 @@ body {
 .img-head {
     width: 300px;
     height: 200px;
-    background-color: #000000;
+    background-color: #34495e;
 }
 .text {
     background-color: #fff;
@@ -36,9 +36,51 @@ body {
     left: 0;
     transform: rotateY(180deg);
 }
+.text-head {
+    width: 300px;
+    height: 50px;
+    border-bottom: 1px dashed #95a5a6;
+}
+.text-body {
+    width: 300px;
+    height: 280px;
+    border-bottom: 1px dashed #95a5a6;
+}
+.text-footer {
+    width: 300px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons {
+    width: 270px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-eye {
+    width: 55px;
+    height: 40px;
+    border: 1px solid #bdc3c7;
+    border-radius: 3px;
+    background-color: #ecf0f1;
+}
+.btn-online {
+    text-decoration: none;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 3px;
+}
 .img,
 .text {
-    border: 2px solid #000000;
     border-radius: 5px;
     width: 300px;
     height: 400px;
